@@ -1,0 +1,296 @@
+.BDL-LOGO {
+  background-color: #781c21;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.BDL-LOGO .overlap-wrapper-7 {
+  background-color: #781c21;
+  overflow: hidden;
+  width: 1440px;
+  height: 900px;
+}
+
+.BDL-LOGO .overlap-31 {
+  position: relative;
+  width: 1512px;
+  height: 972px;
+  top: -36px;
+  left: -36px;
+}
+
+.BDL-LOGO .print-7 {
+  position: absolute;
+  width: 1512px;
+  height: 972px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .overlap-group-20 {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  top: 36px;
+  left: 36px;
+}
+
+.BDL-LOGO .rectangle-67 {
+  position: absolute;
+  width: 154px;
+  height: 170px;
+  top: 730px;
+  left: 12px;
+}
+
+.BDL-LOGO .rectangle-68 {
+  position: absolute;
+  width: 325px;
+  height: 473px;
+  top: 427px;
+  left: 241px;
+}
+
+.BDL-LOGO .rectangle-69 {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .rectangle-70 {
+  position: absolute;
+  width: 183px;
+  height: 122px;
+  top: 0;
+  left: 1257px;
+}
+
+.BDL-LOGO .main-6 {
+  position: absolute;
+  width: 819px;
+  height: 729px;
+  top: 207px;
+  left: 343px;
+  background-color: #000000;
+}
+
+.BDL-LOGO .title-4 {
+  position: relative;
+  width: 768px;
+  height: 32px;
+  top: 19px;
+  left: 26px;
+}
+
+.BDL-LOGO .overlap-group-21 {
+  position: relative;
+  width: 766px;
+  height: 32px;
+  background-color: #781c21;
+}
+
+.BDL-LOGO .text-wrapper-47 {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  text-shadow: 0px 4px 4px #00000080;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #b5242c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .nav-11 {
+  position: absolute;
+  width: 816px;
+  height: 33px;
+  top: 158px;
+  left: 351px;
+}
+
+.BDL-LOGO .overlap-32 {
+  position: relative;
+  width: 822px;
+  height: 33px;
+}
+
+.BDL-LOGO .rectangle-71 {
+  position: absolute;
+  width: 811px;
+  height: 33px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+}
+
+.BDL-LOGO .nav-12 {
+  position: absolute;
+  width: 822px;
+  height: 24px;
+  top: 9px;
+  left: 0;
+}
+
+.BDL-LOGO .text-wrapper-48 {
+  position: absolute;
+  width: 94px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .text-wrapper-49 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 374px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .text-wrapper-50 {
+  position: absolute;
+  width: 75px;
+  top: 0;
+  left: 741px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .header-7 {
+  position: absolute;
+  width: 816px;
+  height: 116px;
+  top: 36px;
+  left: 343px;
+  background-color: transparent;
+}
+
+.BDL-LOGO .overlap-33 {
+  position: relative;
+  width: 816px;
+  height: 116px;
+}
+
+.BDL-LOGO .bg-leopard-og-7 {
+  position: absolute;
+  width: 815px;
+  height: 116px;
+  top: 0;
+  left: 1px;
+}
+
+.BDL-LOGO .rectangle-72 {
+  position: absolute;
+  width: 373px;
+  height: 91px;
+  top: 11px;
+  left: 115px;
+}
+
+.BDL-LOGO .planetprecious-7 {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 38px;
+  left: 140px;
+  background-image: url(./img/image-2-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.BDL-LOGO .planet-12 {
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.BDL-LOGO .overlap-34 {
+  position: relative;
+  height: 66px;
+  top: -1px;
+  left: -1px;
+}
+
+.BDL-LOGO .rectangle-73 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 1px;
+  left: 29px;
+}
+
+.BDL-LOGO .rectangle-74 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 13px;
+  left: 2px;
+}
+
+.BDL-LOGO .planet-13 {
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .overlap-group-22 {
+  position: relative;
+  width: 118px;
+  height: 64px;
+  top: 1px;
+  left: 1px;
+}
+
+.BDL-LOGO .rectangle-75 {
+  position: absolute;
+  width: 65px;
+  height: 64px;
+  top: 0;
+  left: 27px;
+}
+
+.BDL-LOGO .rectangle-76 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 11px;
+  left: 0;
+}
+
+.BDL-LOGO .AGOO {
+  position: absolute;
+  width: 738px;
+  height: 537px;
+  top: 303px;
+  left: 383px;
+  object-fit: cover;
+}
