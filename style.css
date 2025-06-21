@@ -1,182 +1,213 @@
-.HOME {
-  background-color: #781c21;
-  width: 100vw;
+/* ==== BASE RESET ==== */
+body, html {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: #781c21;
+  color: #fff;
+  font-family: "Helvetica Neue-Regular", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.HOME .overlap-wrapper {
-  background-color: #781c21;
-  width: 100vw;
-  max-width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-.HOME .overlap {
-  width: 100vw;
-  max-width: 1440px;
+/* ==== NAVIGATION ==== */
+.nav-main {
+  width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
-  position: relative;
-  min-height: 100vh;
-}
-
-.HOME .print,
-.HOME .overlap-group {
-  width: 100%;
-  position: relative;
-}
-
-.HOME .print {
-  /* If you want to layer prints, keep this absolute, else use relative */
-  position: relative;
-}
-
-.HOME .overlap-group {
-  /* Remove top/left offsets, make images relative to parent */
-}
-
-.HOME .rectangle,
-.HOME .img,
-.HOME .rectangle-2,
-.HOME .rectangle-3 {
-  position: absolute;
-  max-width: 20vw;
-  height: auto;
-}
-
-.HOME .nav {
-  width: 100%;
-  max-width: 816px;
-  margin: 2rem auto 0 auto;
-  position: relative;
-  z-index: 10;
-}
-
-.HOME .div {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.HOME .rectangle-4 {
-  background-color: #00000080;
-  width: 100%;
-  height: 33px;
-  position: absolute;
-  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  background: rgba(0,0,0,0.7);
+  padding: 1.5rem 0 1rem 0;
+  position: sticky;
   top: 0;
+  z-index: 100;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Helvetica Neue-Thin", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: color 0.2s, background 0.2s;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
 }
 
-.HOME .nav-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-  height: 33px;
-  padding: 0 2rem;
-  z-index: 20;
-}
-
-.HOME .text-wrapper,
-.HOME .text-wrapper-2,
-.HOME .text-wrapper-3 {
-  font-family: "Helvetica Neue-Thin", Helvetica, Arial, sans-serif;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 300;
-  white-space: nowrap;
-  text-decoration: none;
-  transition: color 0.2s;
-  background: none;
-  border: none;
-  padding: 0 1rem;
-  position: relative;
-  z-index: 21;
-}
-
-.HOME .text-wrapper-2,
-.HOME .text-wrapper-3 {
-  font-family: "Helvetica Neue-UltraLight", Helvetica, Arial, sans-serif;
-}
-
-.HOME .text-wrapper:hover,
-.HOME .text-wrapper-2:hover,
-.HOME .text-wrapper-3:hover {
-  color: #ffd700;
-}
-
-.HOME .main {
-  width: 95vw;
-  max-width: 821px;
-  margin: 2rem auto;
-  position: relative;
-  z-index: 5;
-}
-
-.HOME .overlap-2 {
-  background-color: #000;
-  padding: 2rem;
-  border-radius: 1rem;
-  min-height: 300px;
-}
-
-.HOME .status {
-  margin-bottom: 1.5rem;
-  position: relative;
-}
-
-.HOME .text-wrapper-4 {
-  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
+.nav-link:hover, .nav-link:focus {
+  background: #ffd700;
   color: #781c21;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  position: relative;
+  outline: none;
 }
 
-.HOME .overlap-group-2 {
+/* ==== MAIN LAYOUT ==== */
+.HOME {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 2.5rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 0 1.5rem 3rem 1.5rem;
+}
+
+/* ==== BANNER SECTION ==== */
+.banner-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-img {
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.20);
+}
+
+.side-banners {
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   align-items: center;
-  margin-bottom: 0.5rem;
 }
 
-.HOME .text-wrapper-5,
-.HOME .text-wrapper-6 {
+.side-banner-img {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+/* ==== SECTION CARDS ==== */
+.section-card {
+  background: #000;
+  border-radius: 16px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.13);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.status-title,
+.contact-title,
+.data-visuals-title {
   font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
-  color: #fff;
   font-size: 1rem;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.HOME .text-wrapper-5:hover,
-.HOME .text-wrapper-6:hover {
   color: #ffd700;
+  margin-bottom: 0.8rem;
 }
 
-.HOME .view-my {
-  color: #781c21;
-  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-}
-
-.HOME .last-active-hours {
+.status-detail,
+.contact-detail,
+.data-visuals-detail {
+  font-size: 1.1rem;
   color: #fff;
-  font-family: "Helvetica Neue-Regular", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 0.5rem;
 }
 
-.HOME .URL {
-  margin: *
-
+.avatar-img {
+  max-width: 140px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 2rem auto 1rem auto;
+  display: block;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.12);
+}
+
+/* ==== DATA VISUALS ==== */
+.data-visuals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.data-visuals-title {
+  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #ffd700;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.data-visual-img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* ==== TYPOGRAPHY & INFO ==== */
+h1, h2, h3 {
+  font-family: "Helvetica Neue-Bold", Helvetica, Arial, sans-serif;
+}
+
+.email, .phone {
+  color: #ffd700;
+  font-size: 1.04rem;
+  word-break: break-all;
+}
+
+/* ==== RESPONSIVE QUERIES ==== */
+@media (max-width: 1024px) {
+  .main-content {
+    max-width: 98vw;
+    padding: 0 1rem 2rem 1rem;
+  }
+  .banner-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  .nav-main {
+    gap: 1rem;
+    padding: 1rem 0 0.7rem 0;
+    font-size: 1.1rem;
+  }
+  .section-card {
+    padding: 1rem;
+  }
+  .avatar-img {
+    max-width: 90px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+  .main-content {
+    padding: 0 0.2rem 1rem 0.2rem;
+  }
+  .section-card {
+    padding: 0.5rem;
+  }
+}
+
+/* ==== UTILITIES ==== */
+.mt-2 { margin-top: 2rem; }
+.mb-2 { margin-bottom: 2rem; }
