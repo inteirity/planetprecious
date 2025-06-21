@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-width: 100%;
+}
+
+body {
+  zoom: 0.8;
+  -moz-transform: scale(0.8);
+  -moz-transform-origin: 0 0;
+  overflow-x: hidden;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Helvetica Neue-UltraLight";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/60701ab117a50b8a6cb85a82/fonts/helvetica-neue-ultralight-22557.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue-Thin";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/675fc217250a8893a9b28da6/fonts/helveticaneuethin.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/637de592a17e9f3ed8e13315/fonts/helveticaneue-bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/66dbe8113cbd8877008f2c1a/fonts/5796578-1.svg")
+    format("");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/61937676c1b2ee0850725a54/fonts/helvetica-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Helvetica-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/656791b77f52524f6a44afda/fonts/helvetica-regular.otf")
+    format("opentype");
+}

@@ -1,0 +1,316 @@
+.BDL-LOGO {
+  background-color: #781c21;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.BDL-LOGO .overlap-wrapper-9 {
+  background-color: #781c21;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 900px;
+  position: relative;
+  transform: scale(0.9);
+  transform-origin: top center;
+}
+
+.BDL-LOGO .overlap-40 {
+  position: relative;
+  width: 1512px;
+  height: 972px;
+  top: -36px;
+  left: -36px;
+}
+
+.BDL-LOGO .print-9 {
+  position: absolute;
+  width: 1512px;
+  height: 972px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .overlap-group-25 {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  top: 36px;
+  left: 36px;
+}
+
+.BDL-LOGO .rectangle-87 {
+  position: absolute;
+  width: 154px;
+  height: 170px;
+  top: 730px;
+  left: 12px;
+}
+
+.BDL-LOGO .rectangle-88 {
+  position: absolute;
+  width: 325px;
+  height: 473px;
+  top: 427px;
+  left: 241px;
+}
+
+.BDL-LOGO .rectangle-89 {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .rectangle-90 {
+  position: absolute;
+  width: 183px;
+  height: 122px;
+  top: 0;
+  left: 1257px;
+}
+
+.BDL-LOGO .main-8 {
+  position: absolute;
+  width: 819px;
+  height: 729px;
+  top: 207px;
+  left: 343px;
+  background-color: #000000;
+}
+
+.BDL-LOGO .title-5 {
+  position: relative;
+  width: 768px;
+  height: 32px;
+  top: 19px;
+  left: 26px;
+}
+
+.BDL-LOGO .overlap-group-26 {
+  position: relative;
+  width: 766px;
+  height: 32px;
+  background-color: #781c21;
+}
+
+.BDL-LOGO .text-wrapper-62 {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  text-shadow: 0px 4px 4px #00000080;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #b5242c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .nav-15 {
+  position: absolute;
+  width: 816px;
+  height: 33px;
+  top: 158px;
+  left: 351px;
+  z-index: 10;
+}
+
+.BDL-LOGO .nav-15 a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.BDL-LOGO .overlap-41 {
+  position: relative;
+  width: 822px;
+  height: 33px;
+}
+
+.BDL-LOGO .rectangle-91 {
+  position: absolute;
+  width: 811px;
+  height: 33px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+}
+
+.BDL-LOGO .nav-16 {
+  position: absolute;
+  width: 822px;
+  height: 24px;
+  top: 5px;
+  left: 0;
+  z-index: 10;
+}
+
+.BDL-LOGO .nav-16 a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.BDL-LOGO .text-wrapper-63 {
+  position: absolute;
+  width: 94px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .text-wrapper-64 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 374px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .text-wrapper-65 {
+  position: absolute;
+  width: 75px;
+  top: 0;
+  left: 741px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.BDL-LOGO .header-9 {
+  position: absolute;
+  width: 816px;
+  height: 116px;
+  top: 36px;
+  left: 343px;
+  background-color: transparent;
+}
+
+.BDL-LOGO .overlap-42 {
+  position: relative;
+  width: 816px;
+  height: 116px;
+}
+
+.BDL-LOGO .bg-leopard-og-9 {
+  position: absolute;
+  width: 815px;
+  height: 116px;
+  top: 0;
+  left: 1px;
+}
+
+.BDL-LOGO .rectangle-92 {
+  position: absolute;
+  width: 373px;
+  height: 91px;
+  top: 11px;
+  left: 115px;
+}
+
+.BDL-LOGO .planetprecious-9 {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 38px;
+  left: 140px;
+  background-image: url(https://c.animaapp.com/qCxoTxDq/img/image-2-8@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.BDL-LOGO .planet-16 {
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.BDL-LOGO .overlap-43 {
+  position: relative;
+  height: 66px;
+  top: -1px;
+  left: -1px;
+}
+
+.BDL-LOGO .rectangle-93 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 1px;
+  left: 29px;
+}
+
+.BDL-LOGO .rectangle-94 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 13px;
+  left: 2px;
+}
+
+.BDL-LOGO .planet-17 {
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.BDL-LOGO .overlap-group-27 {
+  position: relative;
+  width: 118px;
+  height: 64px;
+  top: 1px;
+  left: 1px;
+}
+
+.BDL-LOGO .rectangle-95 {
+  position: absolute;
+  width: 65px;
+  height: 64px;
+  top: 0;
+  left: 27px;
+}
+
+.BDL-LOGO .rectangle-96 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 11px;
+  left: 0;
+}
+
+.BDL-LOGO .AGOO-2 {
+  position: absolute;
+  width: 738px;
+  height: 537px;
+  top: 303px;
+  left: 383px;
+  object-fit: cover;
+}

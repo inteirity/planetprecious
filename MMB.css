@@ -1,0 +1,462 @@
+.MMB {
+  background-color: #781c21;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.MMB .overlap-wrapper-4 {
+  background-color: #781c21;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 3600px;
+  position: relative;
+  transform: scale(0.9);
+  transform-origin: top center;
+}
+
+.MMB .overlap-18 {
+  position: relative;
+  width: 1512px;
+  height: 4314px;
+  top: -159px;
+  left: -36px;
+}
+
+.MMB .print-4 {
+  position: absolute;
+  width: 1512px;
+  height: 4314px;
+  top: 0;
+  left: 0;
+}
+
+.MMB .overlap-group-12 {
+  position: relative;
+  width: 1440px;
+  height: 3600px;
+  top: 159px;
+  left: 36px;
+}
+
+.MMB .rectangle-35 {
+  position: absolute;
+  width: 154px;
+  height: 360px;
+  top: 3240px;
+  left: 12px;
+}
+
+.MMB .rectangle-36 {
+  position: absolute;
+  width: 325px;
+  height: 1703px;
+  top: 1897px;
+  left: 241px;
+}
+
+.MMB .rectangle-37 {
+  position: absolute;
+  width: 1440px;
+  height: 3600px;
+  top: 0;
+  left: 0;
+}
+
+.MMB .rectangle-38 {
+  position: absolute;
+  width: 183px;
+  height: 542px;
+  top: 0;
+  left: 1257px;
+}
+
+.MMB .main-3 {
+  position: absolute;
+  width: 816px;
+  height: 3803px;
+  top: 355px;
+  left: 344px;
+  background-color: #000000;
+}
+
+.MMB .title-3 {
+  position: absolute;
+  width: 770px;
+  height: 90px;
+  top: 23px;
+  left: 24px;
+}
+
+.MMB .overlap-group-13 {
+  position: absolute;
+  width: 766px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background-color: #781c21;
+}
+
+.MMB .text-wrapper-34 {
+  position: absolute;
+  width: 190px;
+  top: 8px;
+  left: 5px;
+  text-shadow: 0px 4px 4px #00000080;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #b5242c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .throughout-the {
+  position: absolute;
+  width: 647px;
+  top: 42px;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .text-wrapper-35 {
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.MMB .text-wrapper-36 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.MMB .mag {
+  position: absolute;
+  width: 765px;
+  height: 552px;
+  top: 132px;
+  left: 29px;
+}
+
+.MMB .text-wrapper-37 {
+  top: 535px;
+  left: 650px;
+  position: absolute;
+  width: 113px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .magazine {
+  position: absolute;
+  width: 761px;
+  height: 531px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.MMB .mag-2 {
+  position: absolute;
+  width: 763px;
+  height: 555px;
+  top: 727px;
+  left: 26px;
+}
+
+.MMB .text-wrapper-38 {
+  top: 538px;
+  left: 648px;
+  position: absolute;
+  width: 113px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .inv {
+  position: absolute;
+  width: 760px;
+  height: 554px;
+  top: 1316px;
+  left: 26px;
+}
+
+.MMB .uitnodiging {
+  width: 758px;
+  height: 534px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.MMB .text-wrapper-39 {
+  width: 62px;
+  top: 542px;
+  left: 696px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .inv-2 {
+  position: absolute;
+  width: 764px;
+  height: 554px;
+  top: 2836px;
+  left: 26px;
+}
+
+.MMB .text-wrapper-40 {
+  width: 63px;
+  top: 542px;
+  left: 699px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .inv-3 {
+  position: absolute;
+  width: 623px;
+  height: 911px;
+  top: 1917px;
+  left: 95px;
+}
+
+.MMB .uitnodiging-2 {
+  width: 621px;
+  height: 880px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.MMB .text-wrapper-41 {
+  width: 63px;
+  top: 888px;
+  left: 558px;
+  position: absolute;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.MMB .nav-7 {
+  position: absolute;
+  width: 816px;
+  height: 33px;
+  top: 287px;
+  left: 344px;
+}
+
+.MMB .overlap-19 {
+  position: relative;
+  width: 822px;
+  height: 33px;
+}
+
+.MMB .rectangle-39 {
+  position: absolute;
+  width: 811px;
+  height: 33px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+}
+
+.MMB .nav-8 {
+  position: absolute;
+  width: 822px;
+  height: 24px;
+  top: 5px;
+  left: 0;
+  z-index: 10;
+}
+
+.MMB .nav-8 a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.MMB .text-wrapper-42 {
+  position: absolute;
+  width: 94px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MMB .text-wrapper-43 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 374px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MMB .text-wrapper-44 {
+  position: absolute;
+  width: 75px;
+  top: 0;
+  left: 741px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MMB .header-4 {
+  position: absolute;
+  width: 816px;
+  height: 116px;
+  top: 159px;
+  left: 343px;
+  background-color: transparent;
+}
+
+.MMB .overlap-20 {
+  position: relative;
+  width: 816px;
+  height: 116px;
+}
+
+.MMB .bg-leopard-og-4 {
+  position: absolute;
+  width: 815px;
+  height: 116px;
+  top: 0;
+  left: 1px;
+}
+
+.MMB .rectangle-40 {
+  position: absolute;
+  width: 373px;
+  height: 91px;
+  top: 11px;
+  left: 115px;
+}
+
+.MMB .planetprecious-4 {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 38px;
+  left: 140px;
+  background-image: url(https://c.animaapp.com/qCxoTxDq/img/image-2-8@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.MMB .planet-6 {
+  top: 25px;
+  overflow: hidden;
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  left: 0;
+}
+
+.MMB .overlap-21 {
+  position: relative;
+  height: 66px;
+  top: -1px;
+  left: -1px;
+}
+
+.MMB .rectangle-41 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 1px;
+  left: 29px;
+}
+
+.MMB .rectangle-42 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 13px;
+  left: 2px;
+}
+
+.MMB .planet-7 {
+  top: 0;
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  left: 0;
+}
+
+.MMB .overlap-group-14 {
+  position: relative;
+  width: 118px;
+  height: 64px;
+  top: 1px;
+  left: 1px;
+}
+
+.MMB .rectangle-43 {
+  position: absolute;
+  width: 65px;
+  height: 64px;
+  top: 0;
+  left: 27px;
+}
+
+.MMB .rectangle-44 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 11px;
+  left: 0;
+}

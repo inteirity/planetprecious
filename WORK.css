@@ -1,0 +1,349 @@
+.WORK {
+  background-color: #781c21;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.WORK .overlap-wrapper-8 {
+  background-color: #781c21;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 1499px;
+  position: relative;
+  transform: scale(0.9);
+  transform-origin: top center;
+}
+
+.WORK .overlap-35 {
+  position: relative;
+  width: 1512px;
+  height: 1863px;
+  top: -75px;
+  left: -36px;
+}
+
+.WORK .print-8 {
+  position: absolute;
+  width: 1512px;
+  height: 1863px;
+  top: 0;
+  left: 0;
+}
+
+.WORK .overlap-group-23 {
+  position: relative;
+  width: 1440px;
+  height: 1499px;
+  top: 75px;
+  left: 36px;
+}
+
+.WORK .rectangle-77 {
+  position: absolute;
+  width: 154px;
+  height: 106px;
+  top: 1393px;
+  left: 12px;
+}
+
+.WORK .rectangle-78 {
+  position: absolute;
+  width: 325px;
+  height: 686px;
+  top: 813px;
+  left: 241px;
+}
+
+.WORK .rectangle-79 {
+  position: absolute;
+  width: 1440px;
+  height: 1499px;
+  top: 0;
+  left: 0;
+}
+
+.WORK .rectangle-80 {
+  position: absolute;
+  width: 183px;
+  height: 228px;
+  top: 0;
+  left: 1257px;
+}
+
+.WORK .main-7 {
+  position: absolute;
+  width: 819px;
+  height: 1539px;
+  top: 246px;
+  left: 343px;
+  background-color: #000000;
+}
+
+.WORK .nav-13 {
+  position: absolute;
+  width: 816px;
+  height: 33px;
+  top: 197px;
+  left: 349px;
+}
+
+.WORK .overlap-36 {
+  position: relative;
+  width: 822px;
+  height: 33px;
+}
+
+.WORK .rectangle-81 {
+  position: absolute;
+  width: 811px;
+  height: 33px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+}
+
+.WORK .nav-14 {
+  position: absolute;
+  width: 822px;
+  height: 24px;
+  top: 5px;
+  left: 0;
+  z-index: 10;
+}
+
+.WORK .text-wrapper-58 {
+  position: absolute;
+  width: 94px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.WORK .text-wrapper-59 {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 374px;
+  font-family: "Helvetica Neue-Thin", Helvetica;
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.WORK .nav-14 a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.WORK .text-wrapper-60 {
+  position: absolute;
+  width: 75px;
+  top: 0;
+  left: 741px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.WORK .works {
+  position: absolute;
+  width: 768px;
+  height: 1257px;
+  top: 266px;
+  left: 369px;
+}
+
+.WORK .overlap-37 {
+  position: absolute;
+  width: 766px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background-color: #781c21;
+}
+
+.WORK .text-wrapper-61 {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  text-shadow: 0px 4px 4px #00000080;
+  font-family: "Press Start 2P", Helvetica;
+  font-weight: 400;
+  color: #b5242c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.WORK .magazine-2 {
+  position: absolute;
+  width: 587px;
+  height: 410px;
+  top: 61px;
+  left: 71px;
+  object-fit: cover;
+}
+
+.WORK .CONNECTEDPOSTER-2 {
+  position: absolute;
+  width: 333px;
+  height: 474px;
+  top: 521px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.WORK .IMG-6 {
+  position: absolute;
+  width: 374px;
+  height: 249px;
+  top: 500px;
+  left: 393px;
+  object-fit: cover;
+}
+
+.WORK .ONE-PAGER-of-13 {
+  position: absolute;
+  width: 373px;
+  height: 249px;
+  top: 778px;
+  left: 364px;
+  object-fit: cover;
+}
+
+.WORK .AGOO {
+  position: absolute;
+  width: 297px;
+  height: 216px;
+  top: 1041px;
+  left: 9px;
+  object-fit: cover;
+}
+
+.WORK .header-8 {
+  position: absolute;
+  width: 816px;
+  height: 116px;
+  top: 72px;
+  left: 348px;
+  background-color: transparent;
+}
+
+.WORK .overlap-38 {
+  position: relative;
+  width: 816px;
+  height: 113px;
+  top: 3px;
+}
+
+.WORK .bg-leopard-og-8 {
+  position: absolute;
+  width: 815px;
+  height: 113px;
+  top: 0;
+  left: 1px;
+}
+
+.WORK .rectangle-82 {
+  position: absolute;
+  width: 373px;
+  height: 91px;
+  top: 8px;
+  left: 115px;
+}
+
+.WORK .planetprecious-8 {
+  position: absolute;
+  width: 322px;
+  height: 51px;
+  top: 35px;
+  left: 140px;
+  background-image: url(https://c.animaapp.com/qCxoTxDq/img/image-2-8@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.WORK .planet-14 {
+  top: 22px;
+  overflow: hidden;
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  left: 0;
+}
+
+.WORK .overlap-39 {
+  position: relative;
+  height: 66px;
+  top: -1px;
+  left: -1px;
+}
+
+.WORK .rectangle-83 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 1px;
+  left: 29px;
+}
+
+.WORK .rectangle-84 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 13px;
+  left: 2px;
+}
+
+.WORK .planet-15 {
+  top: 0;
+  position: absolute;
+  width: 121px;
+  height: 65px;
+  left: 0;
+}
+
+.WORK .overlap-group-24 {
+  position: relative;
+  width: 118px;
+  height: 64px;
+  top: 1px;
+  left: 1px;
+}
+
+.WORK .rectangle-85 {
+  position: absolute;
+  width: 65px;
+  height: 64px;
+  top: 0;
+  left: 27px;
+}
+
+.WORK .rectangle-86 {
+  position: absolute;
+  width: 118px;
+  height: 41px;
+  top: 11px;
+  left: 0;
+}
