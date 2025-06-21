@@ -1,1057 +1,182 @@
 .HOME {
   background-color: #781c21;
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .HOME .overlap-wrapper {
   background-color: #781c21;
-  overflow: hidden;
-  width: 1440px;
-  height: 1027px;
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .HOME .overlap {
+  width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
   position: relative;
-  width: 1512px;
-  height: 1322px;
-  top: -52px;
-  left: -57px;
+  min-height: 100vh;
+}
+
+.HOME .print,
+.HOME .overlap-group {
+  width: 100%;
+  position: relative;
 }
 
 .HOME .print {
-  position: absolute;
-  width: 1512px;
-  height: 1322px;
-  top: 0;
-  left: 0;
+  /* If you want to layer prints, keep this absolute, else use relative */
+  position: relative;
 }
 
 .HOME .overlap-group {
-  position: relative;
-  width: 1440px;
-  height: 1027px;
-  top: 52px;
-  left: 57px;
+  /* Remove top/left offsets, make images relative to parent */
 }
 
-.HOME .rectangle {
-  position: absolute;
-  width: 145px;
-  height: 37px;
-  top: 990px;
-  left: 0;
-}
-
-.HOME .img {
-  position: absolute;
-  width: 325px;
-  height: 449px;
-  top: 578px;
-  left: 220px;
-}
-
-.HOME .rectangle-2 {
-  position: absolute;
-  width: 1440px;
-  height: 1027px;
-  top: 0;
-  left: 0;
-}
-
+.HOME .rectangle,
+.HOME .img,
+.HOME .rectangle-2,
 .HOME .rectangle-3 {
   position: absolute;
-  width: 204px;
-  height: 163px;
-  top: 0;
-  left: 1236px;
+  max-width: 20vw;
+  height: auto;
 }
 
 .HOME .nav {
-  position: absolute;
-  width: 816px;
-  height: 33px;
-  top: 174px;
-  left: 382px;
+  width: 100%;
+  max-width: 816px;
+  margin: 2rem auto 0 auto;
+  position: relative;
+  z-index: 10;
 }
 
 .HOME .div {
+  width: 100%;
+  height: auto;
   position: relative;
-  width: 822px;
-  height: 33px;
 }
 
 .HOME .rectangle-4 {
-  position: absolute;
-  width: 811px;
-  height: 33px;
-  top: 0;
-  left: 2px;
   background-color: #00000080;
+  width: 100%;
+  height: 33px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
 }
 
 .HOME .nav-2 {
-  position: absolute;
-  width: 822px;
-  height: 24px;
-  top: 1px;
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 33px;
+  padding: 0 2rem;
+  z-index: 20;
 }
 
-.HOME .text-wrapper {
-  position: absolute;
-  width: 94px;
-  top: 0;
-  left: 0;
-  font-family: "Helvetica Neue-Thin", Helvetica;
-  font-weight: 100;
-  color: #ffffff;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-2 {
-  width: 84px;
-  top: 0;
-  left: 374px;
-  font-family: "Helvetica Neue-UltraLight", Helvetica;
-  font-weight: 300;
-  font-size: 32px;
-  white-space: nowrap;
-  position: absolute;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
+.HOME .text-wrapper,
+.HOME .text-wrapper-2,
 .HOME .text-wrapper-3 {
-  width: 75px;
-  top: 0;
-  left: 741px;
-  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-family: "Helvetica Neue-Thin", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 2rem;
   font-weight: 300;
-  font-size: 32px;
   white-space: nowrap;
-  position: absolute;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: normal;
+  text-decoration: none;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 21;
+}
+
+.HOME .text-wrapper-2,
+.HOME .text-wrapper-3 {
+  font-family: "Helvetica Neue-UltraLight", Helvetica, Arial, sans-serif;
+}
+
+.HOME .text-wrapper:hover,
+.HOME .text-wrapper-2:hover,
+.HOME .text-wrapper-3:hover {
+  color: #ffd700;
 }
 
 .HOME .main {
-  position: absolute;
-  width: 821px;
-  height: 1045px;
-  top: 225px;
-  left: 378px;
+  width: 95vw;
+  max-width: 821px;
+  margin: 2rem auto;
+  position: relative;
+  z-index: 5;
 }
 
 .HOME .overlap-2 {
-  position: relative;
-  width: 819px;
-  height: 1045px;
-  background-color: #000000;
+  background-color: #000;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 300px;
 }
 
 .HOME .status {
-  position: absolute;
-  width: 326px;
-  height: 76px;
-  top: 270px;
-  left: 30px;
+  margin-bottom: 1.5rem;
+  position: relative;
 }
 
 .HOME .text-wrapper-4 {
-  position: absolute;
-  width: 220px;
-  top: 32px;
-  left: 0;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
+  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
   color: #781c21;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
 }
 
 .HOME .overlap-group-2 {
-  position: absolute;
-  width: 316px;
-  height: 20px;
-  top: 56px;
-  left: 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
-.HOME .text-wrapper-5 {
-  width: 71px;
-  top: 1px;
-  left: 101px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  font-size: 12px;
-  position: absolute;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
+.HOME .text-wrapper-5,
 .HOME .text-wrapper-6 {
-  width: 71px;
-  top: 1px;
-  left: 188px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  font-size: 12px;
-  position: absolute;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: normal;
+  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.HOME .text-wrapper-5:hover,
+.HOME .text-wrapper-6:hover {
+  color: #ffd700;
 }
 
 .HOME .view-my {
-  position: absolute;
-  width: 316px;
-  top: 0;
-  left: 0;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
   color: #781c21;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
+  font-family: "Press Start 2P", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
 }
 
 .HOME .last-active-hours {
-  position: absolute;
-  width: 241px;
-  top: 0;
-  left: 3px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
+  color: #fff;
+  font-family: "Helvetica Neue-Regular", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  margin-top: 0.5rem;
 }
 
 .HOME .URL {
-  width: 246px;
-  top: 555px;
-  left: 34px;
-  position: absolute;
-  height: 69px;
-}
-
-.HOME .overlap-3 {
-  position: relative;
-  width: 244px;
-  height: 69px;
-}
-
-.HOME .planetprecious-URL {
-  position: absolute;
-  width: 240px;
-  top: 4px;
-  left: 4px;
-  font-family: "Helvetica-Bold", Helvetica;
-  font-weight: 400;
-  color: #781c21;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .span {
-  font-weight: 700;
-}
-
-.HOME .text-wrapper-7 {
-  font-family: "Helvetica-Regular", Helvetica;
-  font-size: 12px;
-}
-
-.HOME .URL-2 {
-  width: 240px;
-  top: 0;
-  left: 0;
-  border: 2px solid;
-  border-color: #781c21;
-  position: absolute;
-  height: 69px;
-}
-
-.HOME .text-wrapper-8 {
-  position: absolute;
-  top: 15px;
-  left: 17px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #781c21;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .side-banners {
-  position: absolute;
-  width: 1441px;
-  height: 1218px;
-  top: 52px;
-  left: 56px;
-}
-
-.HOME .overlap-4 {
-  position: absolute;
-  width: 281px;
-  height: 1218px;
-  top: 0;
-  left: 1160px;
-  background-color: #404040;
-}
-
-.HOME .ONE-PAGER-of {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 18px;
-  left: 18px;
-}
-
-.HOME .ONE-PAGER-of-2 {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 624px;
-  left: 18px;
-  object-fit: cover;
-}
-
-.HOME .IMG {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 318px;
-  left: 18px;
-  object-fit: cover;
-}
-
-.HOME .overlap-5 {
-  position: absolute;
-  width: 281px;
-  height: 1218px;
-  top: 0;
-  left: 0;
-  background-color: #404040;
-}
-
-.HOME .ONE-PAGER-of-3 {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 18px;
-  left: 12px;
-  object-fit: cover;
-}
-
-.HOME .IMG-2 {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 318px;
-  left: 12px;
-  object-fit: cover;
-}
-
-.HOME .IMG-3 {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  top: 624px;
-  left: 12px;
-}
-
-.HOME .text-wrapper-9 {
-  position: absolute;
-  width: 206px;
-  top: 658px;
-  left: 448px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .AVATAR-OFFICIAL {
-  position: absolute;
-  width: 156px;
-  height: 218px;
-  top: 268px;
-  left: 454px;
-  object-fit: cover;
-}
-
-.HOME .datavisuals {
-  position: absolute;
-  width: 503px;
-  height: 767px;
-  top: 278px;
-  left: 680px;
-}
-
-.HOME .top-genres {
-  position: absolute;
-  width: 514px;
-  height: 420px;
-  top: 36px;
-  left: 0;
-}
-
-.HOME .p {
-  position: absolute;
-  width: 362px;
-  top: 0;
-  left: 61px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .layer {
-  position: absolute;
-  width: 89px;
-  height: 23px;
-  top: 25px;
-  left: 197px;
-}
-
-.HOME .overlap-group-3 {
-  position: absolute;
-  width: 86px;
-  height: 23px;
-  top: 0;
-  left: 0;
-  background-image: url(./img/group.png);
-  background-size: 100% 100%;
-}
-
-.HOME .vector {
-  width: 3px;
-  top: 5px;
-  left: 39px;
-  position: absolute;
-  height: 15px;
-}
-
-.HOME .vector-2 {
-  width: 3px;
-  top: 5px;
-  left: 34px;
-  position: absolute;
-  height: 15px;
-}
-
-.HOME .group {
-  position: absolute;
-  width: 10px;
-  height: 15px;
-  top: 5px;
-  left: 47px;
-}
-
-.HOME .group-2 {
-  position: absolute;
-  width: 20px;
-  height: 15px;
-  top: 3px;
-  left: 60px;
-}
-
-.HOME .group-3 {
-  position: absolute;
-  width: 10px;
-  height: 15px;
-  top: 0;
-  left: 0;
-}
-
-.HOME .group-4 {
-  position: absolute;
-  width: 10px;
-  height: 15px;
-  top: 0;
-  left: 10px;
-}
-
-.HOME .group-5 {
-  position: absolute;
-  width: 20px;
-  height: 15px;
-  top: 3px;
-  left: 8px;
-}
-
-.HOME .group-6 {
-  position: absolute;
-  width: 3px;
-  height: 20px;
-  top: 2px;
-  left: 86px;
-}
-
-.HOME .cloud-rap {
-  position: absolute;
-  width: 241px;
-  height: 35px;
-  top: 65px;
-  left: 251px;
-  object-fit: cover;
-}
-
-.HOME .element-grime {
-  position: absolute;
-  width: 241px;
-  height: 35px;
-  top: 210px;
-  left: 251px;
-  object-fit: cover;
-}
-
-.HOME .underground-hiphop {
-  position: absolute;
-  width: 241px;
-  height: 35px;
-  top: 142px;
-  left: 251px;
-  object-fit: cover;
-}
-
-.HOME .element-alt-rock {
-  position: absolute;
-  width: 241px;
-  height: 35px;
-  top: 287px;
-  left: 251px;
-  object-fit: cover;
-}
-
-.HOME .element-west-coast-hip {
-  position: absolute;
-  width: 241px;
-  height: 35px;
-  top: 364px;
-  left: 251px;
-  object-fit: cover;
-}
-
-.HOME .rage-rap {
-  position: absolute;
-  width: 239px;
-  height: 35px;
-  top: 65px;
-  left: 0;
-  object-fit: cover;
-}
-
-.HOME .element-hyperpop {
-  position: absolute;
-  width: 239px;
-  height: 35px;
-  top: 210px;
-  left: 0;
-  object-fit: cover;
-}
-
-.HOME .rap {
-  position: absolute;
-  width: 239px;
-  height: 35px;
-  top: 142px;
-  left: 0;
-  object-fit: cover;
-}
-
-.HOME .element-art-rock {
-  position: absolute;
-  width: 239px;
-  height: 35px;
-  top: 287px;
-  left: 0;
-  object-fit: cover;
-}
-
-.HOME .element-hip-hop {
-  position: absolute;
-  width: 239px;
-  height: 35px;
-  top: 364px;
-  left: 0;
-  object-fit: cover;
-}
-
-.HOME .text-wrapper-10 {
-  position: absolute;
-  width: 74px;
-  top: 107px;
-  left: 2px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-11 {
-  position: absolute;
-  width: 74px;
-  top: 252px;
-  left: 2px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .rap-2 {
-  position: absolute;
-  width: 74px;
-  top: 184px;
-  left: 2px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-12 {
-  position: absolute;
-  width: 74px;
-  top: 329px;
-  left: 2px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-13 {
-  position: absolute;
-  width: 74px;
-  top: 406px;
-  left: 2px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-14 {
-  position: absolute;
-  width: 74px;
-  top: 107px;
-  left: 259px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-15 {
-  position: absolute;
-  width: 74px;
-  top: 252px;
-  left: 259px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-16 {
-  position: absolute;
-  width: 162px;
-  top: 184px;
-  left: 259px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-17 {
-  position: absolute;
-  width: 162px;
-  top: 329px;
-  left: 259px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .text-wrapper-18 {
-  position: absolute;
-  width: 162px;
-  top: 406px;
-  left: 259px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .datavis {
-  position: absolute;
-  width: 503px;
-  height: 24px;
-  top: 0;
-  left: 0;
-}
-
-.HOME .div-wrapper {
-  position: relative;
-  width: 501px;
-  height: 24px;
-  background-color: #781c21;
-}
-
-.HOME .text-wrapper-19 {
-  position: absolute;
-  width: 288px;
-  top: 6px;
-  left: 3px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.HOME .overlap-6 {
-  position: absolute;
-  width: 498px;
-  height: 265px;
-  top: 502px;
-  left: 0;
-  border-radius: 11px;
-}
-
-.HOME .text-wrapper-20 {
-  position: absolute;
-  width: 195px;
-  top: 4px;
-  left: 141px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .rectangle-5 {
-  position: absolute;
-  width: 498px;
-  height: 265px;
-  top: 0;
-  left: 0;
-  border-radius: 11px;
-  border: 3px solid;
-  border-color: #781c21;
-}
-
-.HOME .steps {
-  position: absolute;
-  width: 484px;
-  height: 214px;
-  top: 25px;
-  left: 8px;
-}
-
-.HOME .contact {
-  position: absolute;
-  width: 248px;
-  height: 165px;
-  top: 593px;
-  left: 412px;
-}
-
-.HOME .overlap-7 {
-  position: relative;
-  width: 240px;
-  height: 165px;
-  border-radius: 14px;
-}
-
-.HOME .rectangle-6 {
-  position: absolute;
-  width: 240px;
-  height: 16px;
-  top: 0;
-  left: 0;
-  background-color: #781c21;
-  border-radius: 14px;
-  border: 1px solid;
-}
-
-.HOME .rectangle-7 {
-  position: absolute;
-  width: 240px;
-  height: 165px;
-  top: 0;
-  left: 0;
-  border-radius: 14px;
-  border: 1px solid;
-  border-color: #781c21;
-}
-
-.HOME .text-wrapper-21 {
-  position: absolute;
-  width: 222px;
-  top: 0;
-  left: 9px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .text-wrapper-22 {
-  position: absolute;
-  width: 199px;
-  top: 38px;
-  left: 28px;
-  font-family: "Press Start 2P", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.HOME .linked-in {
-  position: absolute;
-  width: 93px;
-  height: 10px;
-  top: 110px;
-  left: 36px;
-}
-
-.HOME .instagram {
-  position: absolute;
-  width: 105px;
-  height: 12px;
-  top: 139px;
-  left: 36px;
-}
-
-.HOME .icons {
-  position: absolute;
-  width: 22px;
-  height: 130px;
-  top: 26px;
-  left: 6px;
-}
-
-.HOME .phone {
-  position: absolute;
-  width: 12px;
-  height: 29px;
-  top: 0;
-  left: 3px;
-}
-
-.HOME .insta {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 110px;
-  left: 2px;
-}
-
-.HOME .linkedin {
-  position: absolute;
-  width: 19px;
-  height: 19px;
-  top: 79px;
-  left: 2px;
-}
-
-.HOME .mail {
-  position: absolute;
-  width: 22px;
-  height: 18px;
-  top: 42px;
-  left: 0;
-}
-
-.HOME .overlap-group-4 {
-  position: relative;
-  height: 18px;
-}
-
-.HOME .vector-3 {
-  width: 19px;
-  top: 1px;
-  left: 1px;
-  position: absolute;
-  height: 15px;
-}
-
-.HOME .group-7 {
-  position: absolute;
-  width: 22px;
-  height: 18px;
-  top: 0;
-  left: 0;
-}
-
-.HOME .header {
-  position: absolute;
-  width: 816px;
-  height: 116px;
-  top: 52px;
-  left: 381px;
-  background-color: transparent;
-}
-
-.HOME .overlap-8 {
-  position: relative;
-  width: 816px;
-  height: 116px;
-}
-
-.HOME .bg-leopard-og {
-  position: absolute;
-  width: 815px;
-  height: 116px;
-  top: 0;
-  left: 1px;
-}
-
-.HOME .rectangle-8 {
-  position: absolute;
-  width: 373px;
-  height: 91px;
-  top: 11px;
-  left: 115px;
-}
-
-.HOME .planetprecious {
-  position: absolute;
-  width: 322px;
-  height: 51px;
-  top: 38px;
-  left: 140px;
-  background-image: url(./img/image-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.HOME .planet {
-  top: 25px;
-  overflow: hidden;
-  position: absolute;
-  width: 121px;
-  height: 65px;
-  left: 0;
-}
-
-.HOME .overlap-9 {
-  position: relative;
-  height: 66px;
-  top: -1px;
-  left: -1px;
-}
-
-.HOME .rectangle-9 {
-  position: absolute;
-  width: 65px;
-  height: 65px;
-  top: 1px;
-  left: 29px;
-}
-
-.HOME .rectangle-10 {
-  position: absolute;
-  width: 118px;
-  height: 41px;
-  top: 13px;
-  left: 2px;
-}
-
-.HOME .overlap-group-wrapper {
-  top: 0;
-  position: absolute;
-  width: 121px;
-  height: 65px;
-  left: 0;
-}
-
-.HOME .overlap-group-5 {
-  position: relative;
-  width: 118px;
-  height: 64px;
-  top: 1px;
-  left: 1px;
-}
-
-.HOME .rectangle-11 {
-  position: absolute;
-  width: 65px;
-  height: 64px;
-  top: 0;
-  left: 27px;
-}
-
-.HOME .rectangle-12 {
-  position: absolute;
-  width: 118px;
-  height: 41px;
-  top: 11px;
-  left: 0;
-}
+  margin: *
+
