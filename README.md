@@ -1,2 +1,0 @@
-# planetprecious
-Mijn portfolio website
