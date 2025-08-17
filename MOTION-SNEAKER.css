@@ -117,13 +117,13 @@
 .MOTION-SNEAKER .text-wrapper-32 { font-weight: 700; }
 .MOTION-SNEAKER .text-wrapper-33 { font-family: "Helvetica-Regular", Helvetica; }
 
-/* Vimeo embed aligned with Motion-Sneaker layout */
+/* Container for the video inside your layout */
 .MOTION-SNEAKER .izzymarants-video {
-  position: absolute;
-  top: 430px;      /* adjust to sit below title/text */
-  left: 374px;     /* align with your .izzymarants element */
-  width: 755px;
-  height: 427px;
+  display: block;
+  width: 100%;       /* take full width of parent container */
+  max-width: 755px;  /* match your design */
+  margin: 20px auto; /* center horizontally and add spacing */
+  height: 427px;     /* match your design */
 }
 
 .MOTION-SNEAKER .izzymarants-video iframe {
@@ -131,3 +131,4 @@
   height: 100%;
   border: none;
 }
+
