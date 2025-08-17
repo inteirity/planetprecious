@@ -118,17 +118,23 @@
 .MOTION-SNEAKER .text-wrapper-33 { font-family: "Helvetica-Regular", Helvetica; }
 
 /* Container for the video inside your layout */
-.MOTION-SNEAKER .izzymarants-video {
-  display: block;
-  width: 100%;       /* take full width of parent container */
-  max-width: 755px;  /* match your design */
-  margin: 20px auto; /* center horizontally and add spacing */
-  height: 427px;     /* match your design */
+.MOTION-SNEAKER .izzymarants {
+  position: absolute;
+  width: 755px;
+  height: 427px;
+  top: 383px;   /* same as before */
+  left: 374px;  /* same as before */
+  overflow: hidden; /* ensures iframe fits */
+  z-index: 1;    /* behind nav/title if needed */
 }
 
-.MOTION-SNEAKER .izzymarants-video iframe {
+.MOTION-SNEAKER .izzymarants iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 0;
 }
+
 
