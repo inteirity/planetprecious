@@ -7,26 +7,73 @@
   overflow-x: hidden;
 }
 
-/* Preserving all your design layers */
-.MOTION-SNEAKER .overlap-wrapper-3 { background-color:#781c21; overflow:hidden; width:100%; max-width:1440px; height:auto; min-height:900px; position:relative; transform:scale(0.9); transform-origin:top center; }
-.MOTION-SNEAKER .overlap-14 { position:relative; width:1512px; height:972px; top:-36px; left:-36px; }
-.MOTION-SNEAKER .print-3 { position:absolute; width:1512px; height:972px; top:0; left:0; }
-.MOTION-SNEAKER .overlap-group-9 { position:relative; width:1440px; height:900px; top:36px; left:36px; }
-/* ... keep all your previous .rectangle-*, .planet-* and text-wrapper styles ... */
-
-/* Vimeo video section */
-.video-section {
-  max-width: 900px;
-  margin: 40px auto;
+.MOTION-SNEAKER .overlap-wrapper-3 {
+  background-color: #781c21;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 900px;
   position: relative;
-  z-index: 1; /* ensure video is below your design */
+  transform: scale(0.9);
+  transform-origin: top center;
 }
 
-.video-section iframe {
+.MOTION-SNEAKER .overlap-14 {
+  position: relative;
+  width: 1512px;
+  height: 972px;
+  top: -36px;
+  left: -36px;
+}
+
+.MOTION-SNEAKER .print-3 {
   position: absolute;
+  width: 1512px;
+  height: 972px;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
+
+.MOTION-SNEAKER .overlap-group-9 {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  top: 36px;
+  left: 36px;
+}
+
+.MOTION-SNEAKER .rectangle-24 { position: absolute; width: 154px; height: 170px; top: 730px; left: 12px; }
+.MOTION-SNEAKER .rectangle-25 { position: absolute; width: 325px; height: 473px; top: 427px; left: 241px; }
+.MOTION-SNEAKER .rectangle-26 { position: absolute; width: 1440px; height: 900px; top: 0; left: 0; }
+.MOTION-SNEAKER .rectangle-27 { position: absolute; width: 183px; height: 122px; top: 0; left: 1257px; }
+.MOTION-SNEAKER .rectangle-28 { position: absolute; width: 655px; height: 383px; top: 347px; left: 393px; background-color: #d9d9d9; }
+.MOTION-SNEAKER .title-wrapper { position: absolute; width: 819px; height: 729px; top: 207px; left: 343px; background-color: #000000; }
+.MOTION-SNEAKER .title-2 { position: relative; width: 768px; height: 32px; top: 17px; left: 20px; }
+.MOTION-SNEAKER .overlap-group-10 { position: relative; width: 766px; height: 32px; background-color: #781c21; }
+.MOTION-SNEAKER .text-wrapper-27 { position: absolute; top: 8px; left: 5px; text-shadow: 0px 4px 4px #00000080; font-family: "Press Start 2P", Helvetica; font-weight: 400; color: #b5242c; font-size: 16px; white-space: nowrap; }
+
+.MOTION-SNEAKER .nav-5 { position: absolute; width: 816px; height: 33px; top: 158px; left: 351px; }
+.MOTION-SNEAKER .overlap-15 { position: relative; width: 822px; height: 33px; }
+.MOTION-SNEAKER .rectangle-29 { position: absolute; width: 811px; height: 33px; top: 0; left: 0; background-color: #00000080; }
+.MOTION-SNEAKER .nav-6 { position: absolute; width: 822px; height: 24px; top: 5px; left: 0; z-index: 10; }
+.MOTION-SNEAKER .nav-6 a { text-decoration: none; color: inherit; display: inline-block; }
+.MOTION-SNEAKER .text-wrapper-28 { position: absolute; width: 94px; top: 0; left: 0; font-family: "Helvetica Neue-UltraLight", Helvetica; font-weight: 300; color: #ffffff; font-size: 32px; white-space: nowrap; }
+.MOTION-SNEAKER .text-wrapper-29 { position: absolute; width: 84px; top: 0; left: 374px; font-family: "Helvetica Neue-UltraLight", Helvetica; font-weight: 300; color: #ffffff; font-size: 32px; white-space: nowrap; }
+.MOTION-SNEAKER .text-wrapper-30 { position: absolute; width: 75px; top: 0; left: 741px; font-family: "Helvetica Neue-UltraLight", Helvetica; font-weight: 300; color: #ffffff; font-size: 32px; white-space: nowrap; }
+
+.MOTION-SNEAKER .header-3 { position: absolute; width: 816px; height: 116px; top: 36px; left: 346px; background-color: transparent; }
+.MOTION-SNEAKER .overlap-16 { position: relative; width: 816px; height: 116px; }
+.MOTION-SNEAKER .bg-leopard-og-3 { position: absolute; width: 815px; height: 116px; top: 0; left: 1px; }
+.MOTION-SNEAKER .rectangle-30 { position: absolute; width: 373px; height: 91px; top: 11px; left: 115px; }
+.MOTION-SNEAKER .planetprecious-3 { position: absolute; width: 322px; height: 51px; top: 38px; left: 140px; background-image: url(https://c.animaapp.com/qCxoTxDq/img/image-2-8@2x.png); background-size: cover; background-position: 50% 50%; }
+
+.MOTION-SNEAKER .planet-4 { position: absolute; width: 121px; height: 65px; top: 25px; left: 0; overflow: hidden; }
+.MOTION-SNEAKER .overlap-17 { position: relative; height: 66px; top: -1px; left: -1px; }
+.MOTION-SNEAKER .rectangle-31 { position: absolute; width: 65px; height: 65px; top: 1px; left: 29px; }
+.MOTION-SNEAKER .rectangle-32 { position: absolute; width: 118px; height: 41px; top: 13px; left: 2px; }
+
+.MOTION-SNEAKER .planet-5 { position: absolute; width: 121px; height: 65px; top: 0; left: 0; }
+.MOTION-SNEAKER .overlap-group-11 { position: relative; width: 118px; height: 64px; top: 1px; left: 1px; }
+.MOTION-SNEAKER .rectangle-33 { position: absolute; width: 65px; height: 64px; top: 0; left: 27px; }
+.MOTION-SNEAKER .rectangle-34 { position: absolute; width: 118px; height: 41px; top: 
