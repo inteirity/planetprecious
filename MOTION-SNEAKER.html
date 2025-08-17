@@ -1,87 +1,50 @@
-.MOTION-SNEAKER {
-  background-color: #781c21;
-  display: flex;
-  flex-direction: column; /* changed to column for proper stacking */
-  justify-content: flex-start;
-  width: 100%;
-  overflow-x: hidden;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTION-SNEAKER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Main wrapper */
-.MOTION-SNEAKER .overlap-wrapper-3 {
-  background-color: #781c21;
-  overflow: hidden;
-  width: 100%;
-  max-width: 1440px;
-  min-height: 900px;
-  margin: 0 auto;
-  position: relative;
-  transform: scale(0.9);
-  transform-origin: top center;
-}
+  <div class="MOTION-SNEAKER">
+    
+    <!-- Header / Title Section -->
+    <header class="header">
+      <h1 class="site-title">MOTION-SNEAKER</h1>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
 
-.MOTION-SNEAKER .overlap-14,
-.MOTION-SNEAKER .overlap-group-9 {
-  position: relative;
-}
+    <!-- Main Content Section -->
+    <main class="main-content">
+      <section class="description">
+        <p>Welcome to our site! Here's some text about our project.</p>
+      </section>
 
-/* Example rectangles and overlays */
-.MOTION-SNEAKER .rectangle-24,
-.MOTION-SNEAKER .rectangle-25,
-.MOTION-SNEAKER .rectangle-26,
-.MOTION-SNEAKER .rectangle-27,
-.MOTION-SNEAKER .rectangle-28 {
-  position: absolute;
-}
+      <!-- Vimeo Video Section -->
+      <section class="video-section">
+        <div class="video-container">
+          <iframe 
+            src="https://player.vimeo.com/video/1110771306?badge=0&autopause=0&player_id=0&app_id=58479" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+            title="IZZYMARANTS1">
+          </iframe>
+        </div>
+      </section>
+    </main>
 
-/* Title */
-.MOTION-SNEAKER .title-wrapper {
-  position: absolute;
-  width: 819px;
-  height: 729px;
-  top: 207px;
-  left: 343px;
-  background-color: #000000;
-}
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 MOTION-SNEAKER</p>
+    </footer>
 
-.MOTION-SNEAKER .text-wrapper-27 {
-  position: absolute;
-  top: 8px;
-  left: 5px;
-  text-shadow: 0px 4px 4px #00000080;
-  font-family: "Press Start 2P", Helvetica;
-  color: #b5242c;
-  font-size: 16px;
-}
+  </div>
 
-/* Navigation */
-.MOTION-SNEAKER .nav-6 a {
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
-}
-
-/* Video container (fixed stacking) */
-.video-container {
-  position: relative;       /* stays in normal flow */
-  width: 100%;
-  max-width: 900px;
-  margin: 40px auto;        /* centers video */
-  padding-top: 56.25%;      /* 16:9 aspect ratio */
-  z-index: 1;               /* behind overlays if needed */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Other text and elements */
-.MOTION-SNEAKER .text-wrapper-31,
-.MOTION-SNEAKER .DISCLAIMER-this {
-  position: absolute;
-}
+</body>
+</html>
