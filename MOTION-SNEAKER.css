@@ -350,3 +350,21 @@
 .MOTION-SNEAKER .text-wrapper-33 {
   font-family: "Helvetica-Regular", Helvetica;
 }
+
+/* Vimeo embed container */
+.video-section {
+  max-width: 900px;     /* keeps the video from being too wide */
+  margin: 40px auto;    /* centers it with space above/below */
+  position: relative;
+  z-index: 1000;        /* makes sure it sits on top of background graphics */
+}
+
+.video-section iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;          /* fills the container width */
+  height: 100%;         /* fills the container height */
+  border: 0;            /* removes the default border */
+}
+
