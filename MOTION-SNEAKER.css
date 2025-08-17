@@ -1,116 +1,79 @@
-/* Main Container */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #781c21;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* MOTION-SNEAKER wrapper */
 .MOTION-SNEAKER {
-  background-color: #781c21;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/* Wrapper */
-.MOTION-SNEAKER .overlap-wrapper-3 {
-  background-color: #781c21;
-  overflow: visible;       /* important so video can show */
-  width: 100%;
   max-width: 1440px;
-  min-height: 900px;
-  position: relative;
-  transform: scale(0.9);
-  transform-origin: top center;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Background & images */
-.MOTION-SNEAKER .overlap-14,
-.MOTION-SNEAKER .overlap-group-9 {
-  position: relative;
-  width: 100%;
-  height: auto;
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.MOTION-SNEAKER .print-3 {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-}
-
-/* Rectangles & shapes */
-.MOTION-SNEAKER .rectangle-24,
-.MOTION-SNEAKER .rectangle-25,
-.MOTION-SNEAKER .rectangle-26,
-.MOTION-SNEAKER .rectangle-27,
-.MOTION-SNEAKER .rectangle-28,
-.MOTION-SNEAKER .rectangle-29,
-.MOTION-SNEAKER .rectangle-30,
-.MOTION-SNEAKER .rectangle-31,
-.MOTION-SNEAKER .rectangle-32,
-.MOTION-SNEAKER .rectangle-33,
-.MOTION-SNEAKER .rectangle-34 {
-  position: absolute;
-  background-color: #d9d9d9; /* adjust individually if needed */
-}
-
-/* Titles */
-.MOTION-SNEAKER .title-wrapper {
-  position: absolute;
-  width: 819px;
-  height: 729px;
-  top: 207px;
-  left: 343px;
-  background-color: #000000;
-  z-index: 10;
-}
-
-.MOTION-SNEAKER .text-wrapper-27 {
-  position: absolute;
-  top: 8px;
-  left: 5px;
-  text-shadow: 0px 4px 4px #00000080;
-  font-family: "Press Start 2P", Helvetica;
-  color: #b5242c;
-  font-size: 16px;
-}
-
-/* Navigation */
-.MOTION-SNEAKER .nav-5 { position: absolute; width: 816px; height: 33px; top: 158px; left: 351px; }
-.MOTION-SNEAKER .nav-6 a { text-decoration: none; color: inherit; display: inline-block; }
-.MOTION-SNEAKER .text-wrapper-28,
-.MOTION-SNEAKER .text-wrapper-29,
-.MOTION-SNEAKER .text-wrapper-30 {
-  position: absolute;
-  font-family: "Helvetica Neue-UltraLight", Helvetica;
-  font-weight: 300;
-  color: #ffffff;
+.site-title {
   font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+/* Main content */
+.main-content {
+  text-align: center;
+}
+
+/* Description text */
+.description p {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 /* Vimeo Video */
-.MOTION-SNEAKER .izzymarants {
-  position: absolute;
-  top: 383px;
-  left: 374px;
-  width: 755px;
-  height: 427px;
-  overflow: visible;
-  z-index: 100;
+.video-section {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
 }
 
-.MOTION-SNEAKER .izzymarants iframe {
+.video-container {
   position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
-  display: block;
 }
 
-/* Text blocks */
-.MOTION-SNEAKER .text-wrapper-31,
-.MOTION-SNEAKER .DISCLAIMER-this {
-  position: absolute;
-  font-family: Helvetica, sans-serif;
-  color: #ffffff;
-  font-size: 12px;
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
 }
-.MOTION-SNEAKER .text-wrapper-31 { top: 358px; left: 374px; }
-.MOTION-SNEAKER .DISCLAIMER-this { top: 364px; left: 847px; }
