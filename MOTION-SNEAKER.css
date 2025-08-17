@@ -130,19 +130,20 @@
    VIMEO VIDEO SECTION
 --------------------------*/
 .video-section {
-  position: relative !important;
-  width: 80% !important;
-  max-width: 900px !important;
-  padding-top: 56.25% !important; /* 16:9 aspect ratio */
-  margin: 50px auto !important;
-  z-index: 10000 !important;
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto; /* centers it */
+  position: relative; /* only needed for iframe aspect ratio */
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  z-index: auto; /* default stacking */
 }
 
 .video-section iframe {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  border: none !important;
+  position: absolute; /* required for aspect ratio */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
+
